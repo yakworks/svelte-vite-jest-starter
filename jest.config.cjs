@@ -9,7 +9,7 @@ module.exports = {
     '^.+\\.svelte$': ['svelte-jester', { preprocess: './svelte.config.test.cjs' }],
     'node_modules/.+\\.svelte$': ['svelte-jester', { preprocess: './svelte.config.test.cjs' }],
 
-    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub'
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2|svg)$': 'jest-transform-stub'
   },
   moduleFileExtensions: ['svelte', 'js'],
   testEnvironment: 'jsdom',
